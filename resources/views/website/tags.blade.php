@@ -1,1 +1,3 @@
 {{dd($posts)}}
+
+tags page

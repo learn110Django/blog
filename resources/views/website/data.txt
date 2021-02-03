@@ -1,0 +1,47 @@
+
+
+User
+
+post table
+
+title char 255
+posted_by int 4
+sub_title 100
+body text
+img 255 char
+slug 100
+status  boolean
+like 
+dislike 
+
+
+category table
+name
+slug
+
+
+Tags table
+name
+slug
+
+
+category_post  table
+category_id
+post_id
+
+Tag_pots table
+post_id
+tag_id
+
+Admin table
+name
+email
+status
+phone
+
+Role table
+name
+
+admin_role table
+admin_id
+role_id

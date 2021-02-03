@@ -1,0 +1,18 @@
+ @if ($posts->lastPage() > 1)
+                        <div class="pagination">
+                            <div class="pr-bg pr-bg-white"></div>
+                              <div class="container ">
+                                <a class="{{ ($posts->currentPage() == 1) ? ' disabled' : '' }}  prevposts-link">
+                                    <a href="{{ $posts->url(1) }}"><i class="fal fa-long-arrow-left"></i></a>
+                                </a>
+                                @for ($i = 1; $i <= $posts->lastPage(); $i++)
+                                    <a class="{{ ($posts->currentPage() == $i) ? ' current-page' : '' }}">
+                                        <a href="{{ $posts->url($i) }}">{{ $i }}</a>
+                                    </a>
+                                @endfor
+                                <a class="{{ ($posts->currentPage() == $posts->lastPage()) ? ' disabled' : '' }} nextposts-link">
+                                    <a href="{{ $posts->url($posts->currentPage()+1) }}" ><i class="fal fa-long-arrow-right"></i></a>
+                                </a>
+                            </div>
+                        </div>
+                        @endif

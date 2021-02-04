@@ -14,7 +14,7 @@
             <!-- header--> 
             <header class="main-header">
                 <!-- logo  -->
-                <a href="index.html" class="ajax logo-holder"><img src="{{('fronted/images/Unico-Global-Logo.png')}}" alt="Unico Global"></a>
+                 
                 <!-- logo end -->
                 <!-- nav-button-wrap-->
                 <div class="nav-button but-hol">
@@ -27,8 +27,8 @@
                 <!-- header-contacts--> 
                 <div class="header-contacts">
                     <ul>
-                        <li><span>01. Call </span> <a href="tel:+4(897)56412322">+4(897)56412322</a></li>
-                        <li><span>02. Write </span> <a href="mailto:theside@domain.com">zonar@domain.com</a></li>
+                        <li><span>01. Call </span> <a href="tel:123985555">123985555</a></li>
+                        <li><span>02. Write </span> <a href="mailto:theside@domain.com">abc@gmail.com</a></li>
                     </ul>
                     <a href="{{url('/contact')}}" class="ajax contacts-btn">Get in touch</a>
                 </div>

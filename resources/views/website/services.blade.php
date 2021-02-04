@@ -14,7 +14,7 @@
             <!-- header-->
             <header class="main-header">
                 <!-- logo  -->
-                <a href="index.html" class="ajax logo-holder"><img src="{{('fronted/images/Unico-Global-Logo.png')}}" alt="Unico Global"></a>
+                   
                 <!-- logo end -->
                 <!-- nav-button-wrap-->
                 <div class="nav-button but-hol">
@@ -27,8 +27,8 @@
                 <!-- header-contacts-->
                 <div class="header-contacts">
                     <ul>
-                        <li><span>01. Call </span> <a href="tel:+917304658682">+91 7304658682</a></li>
-                        <li><span>02. Write </span> <a href="mailto:business@unicoglobal.in">business@unicoglobal.in</a></li>
+                        <li><span>01. Call </span> <a href="tel:+91 123456789">+91  123456789</a></li>
+                        <li><span>02. Write </span> <a href="mailto:business@unicoglobal.in">abc@gmail.com</a></li>
                     </ul>
                     <a href="contacts.html" class="ajax contacts-btn">Get in touch</a>
                 </div>
@@ -56,7 +56,7 @@
                             @include('website.template.nav')
                             <!-- nav end-->
                         </div>
-                        <div class="nav-footer"><span>&#169; Unico Global 2020  /  All rights reserved. </span></div>
+                        <div class="nav-footer"><span>&#169;  All rights reserved. </span></div>
                         <div class="nav-holder-wrap_line"></div>
                         <div class="nav-holder-wrap_dec"></div>
                     </div>

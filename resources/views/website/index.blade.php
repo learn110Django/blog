@@ -14,7 +14,7 @@
             <!-- header-->
             <header class="main-header">
                 <!-- logo  -->
-                <a href="index.html" class="ajax logo-holder"><img src="images/Unico-Global-Logo.png" alt="Unico Global"></a>
+               
                 <!-- logo end -->
                 <!-- nav-button-wrap-->
                 <div class="nav-button but-hol">
@@ -65,7 +65,7 @@
                             @include('website.template.nav')
                             <!-- nav end-->
                         </div>
-                        <div class="nav-footer"><span>&#169; Unico Global 2020  /  All rights reserved. </span></div>
+                        <div class="nav-footer"><span>&#169; All rights reserved. </span></div>
                         <div class="nav-holder-wrap_line"></div>
                         <div class="nav-holder-wrap_dec"></div>
                     </div>
@@ -87,7 +87,7 @@
                                             <div class="swiper-slide">
                                                 <div class="half-hero-wrap">
                                                     <div class="hhw_header">Grow and Enhance Your Business With Us!</div>
-                                                    <h1><span> Unico Global - </span><br> Your Virtual Partner</h1>
+                                                    <h1><span> Text here </span><br> Your Virtual Partner</h1>
                                                     <h4></h4>
                                                     <div class="clearfix"></div>
                                                     <a href="portfolio.html" class="btn ajax  fl-btn color-bg"><span>OUR PORTFOLIO</span></a>

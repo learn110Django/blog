@@ -24,3 +24,8 @@ public static function slugify($text)
 
   return $text;
 }
+
+ return Category::where('name', 'like', '%' . $request->category_name . '%')
+        ->products()
+        ->limit(15)
+        ->get();

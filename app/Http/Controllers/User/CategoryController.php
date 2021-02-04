@@ -19,6 +19,7 @@ class CategoryController extends Controller
         $posts[$key]->body = preg_replace("/<[^>]*>/i", "", $post->body);
         $posts[$key]->body = preg_replace("/&.+?;/i", "", $post->body);
     }
+  
        return view('website.categories',compact('posts'));
    }
 }

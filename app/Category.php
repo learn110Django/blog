@@ -11,7 +11,7 @@ class Category extends Model
     //     return $this->belongsToMany('App\Category','category_posts');
     // }
     public function posts(){
-        return $this->belongsToMany('App\Post','category_posts')->select('posts.id','posts.title','posts.body');
+        return $this->belongsToMany('App\Post','category_posts');
     }
     
     public function getRouteKeyName(){
